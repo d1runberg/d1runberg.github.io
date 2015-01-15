@@ -22,12 +22,21 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   <style>
-    .jumbotron.background
+    #jumboBack
+    {
+      opacity: .5;
+    }
+    #JumboText
+    {
+      opacity: 1.0;
+    }
+    
+  
+    .jumbotron
     {
       background-image:url("https://farm8.staticflickr.com/7475/16230780251_516e9e0878_o.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      opacity: .5;
     }
   
     
@@ -71,8 +80,8 @@
 
 
  <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container" style="opacity:1.0;">
+    <div id="jumboBack" class="jumbotron">
+      <div id="jumboText" class="container" >
        <h1> Digital WanderLust</h1>
         <h2>wan·der·lust</h2>
         <p>[won-der-luhst] </p>
